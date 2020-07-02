@@ -9,5 +9,3 @@ def even_fibonacci_sum(limit)
   end
   array.select {|number| number % 2 == 0}.sum
 end
-
-puts even_fibonacci_sum(10)
