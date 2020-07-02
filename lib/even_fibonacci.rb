@@ -5,7 +5,9 @@ def even_fibonacci_sum(limit)
   i = 1
   while  next_number < limit 
     next_number = array[i] + array[i-1]
-    array << next_number 
+    if next_number < limit
+      array << next_number 
+    end
     i += 1 
   end
   array.select {|number| number % 2 == 0}.sum
