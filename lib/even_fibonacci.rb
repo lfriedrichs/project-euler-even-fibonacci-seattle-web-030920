@@ -7,5 +7,5 @@ def even_fibonacci_sum(limit)
     array << next_number
     i += 1 
   end
-  puts array.select {|number| number % 2 == 0}.sum
+  array.select {|number| number % 2 == 0}
 end
