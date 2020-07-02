@@ -1,10 +1,8 @@
 # Implement your procedural solution here!
 def even_fibonacci_sum(limit)
-  array = [1]
-  next_number = 2
-  array << next_number
+  array = [1, 2]
   i = 1
-   while  next_number < limit 
+   while  array[-1] < limit 
     next_number = array[i] + array[i-1]
     array << next_number
     i += 1 
