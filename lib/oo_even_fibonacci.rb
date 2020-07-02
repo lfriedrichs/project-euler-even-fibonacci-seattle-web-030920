@@ -5,7 +5,7 @@ class EvenFibonacci
     @limit = limit 
   end 
   
-  def even_fibonacci_sum
+  def sum
     array = [1, 2]
     limit_reached = false
     i = 1
